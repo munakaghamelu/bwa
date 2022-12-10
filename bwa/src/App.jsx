@@ -9,7 +9,6 @@ import Gallery from "./components/gallery/Gallery";
 import Events from "./components/events/Events";
 import Join from "./components/join/Join";
 import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/Footer";
 import "./app.scss";
 import {useState} from "react";
 
@@ -30,7 +29,6 @@ function App() {
         <Join/>
         <Contact/>
       </div>
-      <Footer/>
     </div>
   );
 }
