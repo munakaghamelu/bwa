@@ -1,4 +1,5 @@
 import Header from "./components/header/Header";
+import Menu from "./components/menu/Menu";
 import Landing from "./components/landing/Landing";
 import About from "./components/about/About";
 import Founders from "./components/founders/Founders";
@@ -9,11 +10,15 @@ import Events from "./components/events/Events";
 import Join from "./components/join/Join";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import "./app.scss";
+import {useState} from "react";
 
 function App() {
+  const [menuOpen,setMenuOpen] = useState(true)
   return (
     <div className="app">
-      <Header/>
+      <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
         <Landing/>
         <About/>
