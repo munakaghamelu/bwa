@@ -1,11 +1,10 @@
 .app{
 
-  height: 100vh;
-
+  // height: 100vh;
   // this is where we manipulate the scrolling
   .sections {
     width: 100%;
-    height: calc(100vh - 70px);
+    // height: calc(100vh - 70px);, not needed for grid
     position: relative;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
@@ -17,7 +16,7 @@
 
     > *{
       width: 100vw;
-      height: calc(100vh - 70px);
+      // height: calc(100vh - 70px);
       scroll-snap-align: start;
     }
   }
