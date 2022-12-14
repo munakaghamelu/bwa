@@ -13,7 +13,7 @@
   #content{
     display: grid;
     grid-template-columns: repeat(1,1fr); // if we want to repeat the same
-    grid-template-rows: 80px 80px 900px;
+    grid-template-rows: 60px 50px 900px;
     max-width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -23,7 +23,17 @@
   #content div{
     background: #F1D268;
     padding: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
+  // #content div:nth-child(2){
+  //   // display: flex;
+  //   // text-align: center;
+  //   // justify-content: center;
+  //   // align-items: center;
+  // }
   #content div:nth-child(3){
     background: url("../../../public/assets/background.png") center center;
     background-size: cover;
