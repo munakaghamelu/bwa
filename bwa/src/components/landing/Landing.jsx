@@ -5,7 +5,7 @@ export default function Landing(){
     <div className="landing" id="landing">
       <div id="content">
         <div>
-          <img src='assets/logo.png' width="64em" height="54em"/>
+          <img src='assets/logo.png' width="64em" height="56em"/>
         </div>
         <div>
           <h3>Promoting, celebrating, connecting and supporting Black Women Artists.</h3>
