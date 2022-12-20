@@ -4,10 +4,20 @@ export default function Founders(){
   return (
     <div className="founders" id="founders">
       <div id="content">
-        <div className="one"></div>
-        <div className="two"></div>
-        <div className="three"></div>
-        <div className="four"></div>
+        <div className="one">
+          <img src="assets/janet.png"></img>
+        </div>
+        <div className="two">
+          <h1>JANET</h1>
+          <h2>FOUNDER</h2>
+        </div>
+        <div className="three">
+          <img src="assets/leah.png"></img>
+        </div>
+        <div className="four">
+          <h1>LEAH</h1>
+          <h2>FOUNDER</h2>
+        </div>
       </div>
     </div>
   );
