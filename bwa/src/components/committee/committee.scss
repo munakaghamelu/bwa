@@ -26,7 +26,11 @@
     grid-row: 5/6;
     background: #262626;
     color: #F1D268;
+    display: flex;
     text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
   }
 
   .three{
@@ -43,8 +47,11 @@
     grid-row: 5/6;
     background: #262626;
     color: #F1D268;
+    display: flex;
     text-align: center;
-  }
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;  }
 
   .five{
     grid-column: 3/4;
@@ -60,7 +67,11 @@
     grid-row: 5/6;
     background: #262626;
     color: #F1D268;
+    display: flex;
     text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;  
   }
 
   .seven{
@@ -77,6 +88,10 @@
     grid-row: 5/6;
     background: #262626;
     color: #F1D268;
+    display: flex;
     text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;  
   }
 }

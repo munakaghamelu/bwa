@@ -23,7 +23,12 @@
     grid-column: 2/3;
     color: #F1D268;
     text-align: center;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    vertical-align: middle;
     align-items: center;
+    margin: auto auto;
+    width: 90%;
   }
 }

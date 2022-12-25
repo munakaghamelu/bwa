@@ -9,14 +9,12 @@ export default function Founders(){
         </div>
         <div className="two">
           <h1>JANET</h1>
-          <h2>FOUNDER</h2>
         </div>
         <div className="three">
           <img src="assets/leah.png"></img>
         </div>
         <div className="four">
           <h1>LEAH</h1>
-          <h2>FOUNDER</h2>
         </div>
       </div>
     </div>

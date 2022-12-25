@@ -1,4 +1,5 @@
 import "./about.scss"
+import Video from "../video/Video";
 
 export default function About() {
   return (
@@ -6,7 +7,7 @@ export default function About() {
       <div id="content">
         <div className="one">
           <p>
-            Insert Video
+            <Video/>
           </p>
         </div>
         <div className="two">
