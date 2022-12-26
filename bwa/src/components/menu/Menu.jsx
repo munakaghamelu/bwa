@@ -25,10 +25,6 @@ export default function Menu({menuOpen, setMenuOpen}) {
         </li>
 
         <li onClick={()=>setMenuOpen(false)}>
-          <a href="#gallery">GALLERY</a>
-        </li>
-
-        <li onClick={()=>setMenuOpen(false)}>
           <a href="#events">EVENTS</a>
         </li>
 
@@ -38,6 +34,10 @@ export default function Menu({menuOpen, setMenuOpen}) {
 
         <li onClick={()=>setMenuOpen(false)}>
           <a href="#contact">CONTACT</a>
+        </li>
+
+        <li onClick={()=>setMenuOpen(false)}>
+          <a href="#gallery">GALLERY</a>
         </li>
       </ul>
     </div>

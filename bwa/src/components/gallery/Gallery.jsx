@@ -54,15 +54,10 @@ export default function Gallery(){
     { source: 'freedom_(69)'},
     { source: 'freedom_(7)'},
     { source: 'freedom_(70)'},
-    { source: 'freedom_(71)'},
-    { source: 'freedom_(72)'},
     { source: 'freedom_(73)'},
     { source: 'freedom_(74)'},
     { source: 'freedom_(75)'},
     { source: 'freedom_(76)'},
-    { source: 'freedom_(77)'},
-    { source: 'freedom_(78)'},
-    { source: 'freedom_(79)'},
     { source: 'freedom_(8)'},
     { source: 'freedom_(80)'},
     { source: 'freedom_(81)'},
@@ -93,7 +88,7 @@ export default function Gallery(){
   
   const handleClick = (way) => {
     way === "next"
-    ? setImgIndex(imgIndex > images.length ? 0 : imgIndex+8)
+    ? setImgIndex(imgIndex >= images.length ? 0 : imgIndex+8)
     : setImgIndex(imgIndex < 0 ? images.length - 8 : imgIndex-8);
   };
 
@@ -128,11 +123,11 @@ export default function Gallery(){
         </div>
 
         <div className="two" onClick={() => handleClick()}>
-          Prev
+          <h1>Prev</h1>
         </div>
 
         <div className="three" onClick={() => handleClick("next")}>
-          Next
+          <h1>Next</h1>
         </div>
 
       </div>

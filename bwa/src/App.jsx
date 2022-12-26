@@ -24,10 +24,10 @@ function App() {
         <Founders/>
         <Committee/>
         <Support/>
-        <Gallery/>
         <Events/>
         <Join/>
         <Contact/>
+        <Gallery/>
       </div>
     </div>
   );
