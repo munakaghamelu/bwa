@@ -2,28 +2,30 @@
 
 .events{
   background-color: #262626;
-  height: 40vh;
+  height: 100vh;
   width: 960px;
   font-family: 'Roboto', sans-serif;
   overflow-wrap: break-word;
-  #content{
+
+  #content #event{
     display: grid;
     grid-template-columns: repeat(3,33%);
     grid-template-rows: repeat(1, 100%);
+    height: 100%;
   }
-  .one{
+  #content #event .one{
     grid-column: 1/2;
     grid-row: 1/2;
-    background: pink;
+    background-color: #262626;
   }
-  .two{
+  #content #event .two{
     grid-column: 2/3;
     grid-row: 1/2;
-    background: green;
+    background-color: white;
   }
-  .three{
+  #content #event .three{
     grid-column: 3/4;
     grid-row: 1/2;
-    background: blue;
+    background-color: black;
   }
 }

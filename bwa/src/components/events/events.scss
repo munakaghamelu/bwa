@@ -3,4 +3,33 @@
 .events{
   background-color: #262626;
   height: 100vh;
+  width: 960px;
+  font-family: 'Roboto', sans-serif;
+  overflow-wrap: break-word;
+  #content{
+    display: grid;
+    grid-template-columns: repeat(1,100%);
+    grid-template-rows: repeat(8, 12.5%);
+    height: 100%;
+  }
+  .one{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background: pink;
+  }
+  .two{
+    grid-column: 1/2;
+    grid-row: 2/5;
+    background: purple;
+  }
+  .three{
+    grid-column: 1/2;
+    grid-row: 5/8;
+    background: green;
+  }
+  .four{
+    grid-column: 1/2;
+    grid-row: 8/9;
+    background: blue;
+  }
 }
