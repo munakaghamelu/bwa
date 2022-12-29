@@ -9,27 +9,19 @@
   #content{
     display: grid;
     grid-template-columns: repeat(1,100%);
-    grid-template-rows: repeat(8, 12.5%);
+    grid-template-rows: 1fr 3fr 3fr 1fr;
     height: 100%;
   }
   .one{
-    grid-column: 1/2;
-    grid-row: 1/2;
     background: pink;
   }
   .two{
-    grid-column: 1/2;
-    grid-row: 2/5;
     background: purple;
   }
   .three{
-    grid-column: 1/2;
-    grid-row: 5/8;
     background: green;
   }
   .four{
-    grid-column: 1/2;
-    grid-row: 8/9;
     background: blue;
   }
 }

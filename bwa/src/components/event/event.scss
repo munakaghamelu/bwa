@@ -1,29 +1,33 @@
 @import "../../global.scss";
 
-.events{
+#content .event{
   background-color: #262626;
-  height: 100vh;
-  width: 960px;
+  height: inherit;
   font-family: 'Roboto', sans-serif;
   overflow-wrap: break-word;
-
-  #content #event{
+  height: 100%;
+  #content{
     display: grid;
     grid-template-columns: repeat(3,33%);
     grid-template-rows: repeat(1, 100%);
-    height: 100%;
+    background: #262626;
+    text-align: center;
   }
-  #content #event .one{
+  .one{
     grid-column: 1/2;
     grid-row: 1/2;
     background-color: #262626;
+    img {
+      width: 100%;
+      height: 100%;
+    }
   }
-  #content #event .two{
+  .two{
     grid-column: 2/3;
     grid-row: 1/2;
     background-color: white;
   }
-  #content #event .three{
+  .three{
     grid-column: 3/4;
     grid-row: 1/2;
     background-color: black;
