@@ -6,6 +6,7 @@
   font-family: 'Roboto', sans-serif;
   overflow-wrap: break-word;
   height: 100%;
+
   #content{
     display: grid;
     grid-template-columns: repeat(3,33%);
@@ -17,6 +18,7 @@
     grid-column: 1/2;
     grid-row: 1/2;
     background-color: #262626;
+    color: #F1D268;
     img {
       width: 100%;
       height: 100%;
@@ -25,11 +27,13 @@
   .two{
     grid-column: 2/3;
     grid-row: 1/2;
-    background-color: white;
+    background: #262626;
+    color: #F1D268;
   }
   .three{
     grid-column: 3/4;
     grid-row: 1/2;
-    background-color: black;
+    background: #262626;
+    color: #F1D268;
   }
 }

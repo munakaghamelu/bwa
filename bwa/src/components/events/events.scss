@@ -6,6 +6,8 @@
   width: 960px;
   font-family: 'Roboto', sans-serif;
   overflow-wrap: break-word;
+  text-align: center;
+  align-items: center;
   #content{
     display: grid;
     grid-template-columns: repeat(1,100%);
@@ -13,7 +15,14 @@
     height: 100%;
   }
   .one{
-    background: pink;
+    background: #F1D268;
+    color: #262626;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    line-height: 50px;
+    cursor: pointer;
   }
   .two{
     background: purple;
@@ -22,6 +31,13 @@
     background: green;
   }
   .four{
-    background: blue;
+    background-color: #262626;
+    color: #F1D268;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    line-height: 50px;
+    cursor: pointer;
   }
 }
