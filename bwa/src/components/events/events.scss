@@ -8,6 +8,8 @@
   overflow-wrap: break-word;
   text-align: center;
   align-items: center;
+  vertical-align: middle;
+
   #content{
     display: grid;
     grid-template-columns: repeat(1,100%);
@@ -22,16 +24,116 @@
     align-items: center;
     vertical-align: middle;
     line-height: 50px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     cursor: pointer;
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    .column {
+      flex: 24%;
+      max-width: 50%;
+      padding: 0 4px;
+      cursor: pointer;
+    }
   }
   .two{
-    background: purple;
+    background: #262626;
+    color: #F1D268;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    
+    /* Create three equal columns that sits next to each other */
+    .column {
+      flex: 24%;
+      max-width: 33%;
+      padding: 0 4px;
+    }
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 40vh;
+      max-height: 36vh;
+    }
+    a {
+      color: #F1D268;
+    }
+    a:link {
+      text-decoration: none;
+    }
+    
+    a:visited {
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    a:active {
+      text-decoration: underline;
+    }
   }
   .three{
-    background: green;
+    background: #262626;
+    color: #F1D268;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    
+    /* Create three equal columns that sits next to each other */
+    .column {
+      flex: 24%;
+      max-width: 33%;
+      padding: 0 4px;
+    }
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 40vh;
+      max-height: 36vh;
+    }
+    a {
+      color: #F1D268;
+    }
+    a:link {
+      text-decoration: none;
+    }
+    
+    a:visited {
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    a:active {
+      text-decoration: underline;
+    }
   }
   .four{
-    background-color: #262626;
+    background: #262626;
     color: #F1D268;
     text-align: center;
     justify-content: center;
@@ -39,5 +141,7 @@
     vertical-align: middle;
     line-height: 50px;
     cursor: pointer;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 }
