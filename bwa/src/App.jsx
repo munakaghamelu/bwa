@@ -9,11 +9,13 @@ import Gallery from "./components/gallery/Gallery";
 import Events from "./components/events/Events";
 import Join from "./components/join/Join";
 import Contact from "./components/contact/Contact";
+import Popup from "./components/popup/Popup";
 import "./app.scss";
 import {useState} from "react";
 
 function App() {
   const [menuOpen,setMenuOpen] = useState(true)
+
   return (
     <div className="app">
       <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
@@ -28,6 +30,7 @@ function App() {
         <Join/>
         <Contact/>
         <Gallery/>
+        <Popup/>
       </div>
     </div>
   );

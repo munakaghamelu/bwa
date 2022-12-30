@@ -2,7 +2,6 @@
 import "./events.scss";
 // import "../event/event.scss";
 import { useState } from "react";
-import { isTemplateExpression } from "typescript";
 
 export default function Events(){
   const eventsList = [

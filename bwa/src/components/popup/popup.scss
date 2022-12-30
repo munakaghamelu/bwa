@@ -1,0 +1,39 @@
+@import "../../global.scss";
+
+.popup{
+  position: absolute;
+  width: 503.37px;
+  height: 282.65px;
+  left: 1377.64px;
+  top: 749.58px;
+
+  background: rgba(241, 210, 104, 0.74);
+  border-radius: 40px;
+
+  &.active{
+    right: 0;
+  }
+
+  .support{
+    position: absolute;
+    width: 396.23px;
+    height: 79.37px;
+    left: 1426.89px;
+    top: 918.82px;
+    color: #E4C832;
+    background: rgba(38, 38, 38, 0.85);
+    border-radius: 100px;
+  }
+
+  .cross{
+    position: absolute;
+    width: 57.67px;
+    height: 56.44px;
+    left: 1838.04px;
+    top: 993.93px;
+
+    background: #000000;
+    color: white;
+  }
+
+}
