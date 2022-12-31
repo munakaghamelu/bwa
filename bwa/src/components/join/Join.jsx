@@ -9,7 +9,7 @@ export default function Join(){
             Subscribe to our newsletter for updates, opportunity round-ups 
             and monthly exhibition picks!
           </p>
-          <a href="#">
+          <a href="https://mailchi.mp/8228ffb4fa0b/email-subscriptions" target="_blank">
             <img src="assets/subscribe.png"></img>
           </a>
           <p>

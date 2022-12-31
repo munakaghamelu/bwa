@@ -1,6 +1,26 @@
 @import "../../global.scss";
 
 .popup{
+  position: fixed;
+  bottom: 0;
+  right: 20;
+  font-family: 'Roboto', sans-serif;
+  overflow-wrap: break-word;
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.mymodal {
+  background: #F1D268;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: auto;
+  outline: none;
+  padding: 20px;
+
   position: absolute;
   width: 503.37px;
   height: 282.65px;
@@ -9,31 +29,62 @@
 
   background: rgba(241, 210, 104, 0.74);
   border-radius: 40px;
+}
 
-  &.active{
-    right: 0;
+.myoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+button {
+  background: #F1D268;
+  width: 57.67px;
+  height: 56.44px;
+  border-radius: 100px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.dialog_text {
+  font-family: 'Roboto', sans-serif;
+  overflow-wrap: break-word;
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.supportbtn{
+  background: rgba(38, 38, 38, 0.85);
+  border-radius: 100px;
+  color: #F1D268;
+  width: 70%;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  // padding-top: 0.5px;
+  // padding-bottom: 0.5px;
+  a {
+    color: #F1D268;
   }
-
-  .support{
-    position: absolute;
-    width: 396.23px;
-    height: 79.37px;
-    left: 1426.89px;
-    top: 918.82px;
-    color: #E4C832;
-    background: rgba(38, 38, 38, 0.85);
-    border-radius: 100px;
+  a:link {
+    text-decoration: none;
   }
-
-  .cross{
-    position: absolute;
-    width: 57.67px;
-    height: 56.44px;
-    left: 1838.04px;
-    top: 993.93px;
-
-    background: #000000;
-    color: white;
+  
+  a:visited {
+    text-decoration: none;
   }
-
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
 }

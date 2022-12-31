@@ -9,7 +9,7 @@ export default function Support(){
         </div>
         <div className="two">
           <h1>PAYPAL DONATION LINK</h1>
-          <a href="">
+          <a href="https://www.paypal.com/donate/?hosted_button_id=VLXYQ3WDAY8H6" target="_blank">
             <img src="assets/paypal.png"></img>
           </a>
           <p>
