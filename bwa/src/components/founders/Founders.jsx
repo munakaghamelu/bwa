@@ -4,6 +4,9 @@ export default function Founders(){
   return (
     <div className="founders" id="founders">
       <div id="content">
+        <div className="zero">
+          <h1>THE FOUNDERS</h1>
+        </div>
         <div className="one">
           <img src="assets/janet.png"></img>
         </div>

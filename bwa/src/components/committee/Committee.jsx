@@ -4,6 +4,9 @@ export default function Committee(){
   return (
     <div className="committee" id="committee">
       <div id="content">
+        <div className="zero">
+          <h1>THE COMMITTEE</h1>
+        </div>
         <div className="one">
           <img src="assets/muna.png"></img>
         </div>

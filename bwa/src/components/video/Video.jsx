@@ -1,10 +1,12 @@
+import { autocompleteClasses } from "@mui/material";
+
 const src = "https://www.youtube.com/embed/DNi4NOGasl0";
 
 const Video = () => {
   return (
     <iframe
-      width="640"
-      height="480"
+      width="auto"
+      height="auto"
       src={src}
       title="Youtube Player"
       frameborder="0"

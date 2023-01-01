@@ -6,9 +6,7 @@ export default function About() {
     <div className="about" id="about">
       <div id="content">
         <div className="one">
-          <p>
-            <Video/>
-          </p>
+          <p><Video/></p>
         </div>
         <div className="two">
           <p> Black Woman Artist Network is a non-profit organisation aiming to promote, 

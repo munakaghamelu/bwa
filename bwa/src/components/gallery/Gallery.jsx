@@ -127,7 +127,6 @@ export default function Gallery(){
     { source: 'matthewyard_677.jpg'},
     { source: 'matthewyard_678.jpg'},
     { source: 'matthewyard_679.jpg'},
-    { source: 'matthewyard_680.jpg'},
     { source: 'matthewyard_681.jpg'},
     { source: 'matthewyard_682.jpg'},
     { source: 'matthewyard_683.jpg'},
@@ -535,7 +534,7 @@ export default function Gallery(){
         </div>
 
         <div className="two" onClick={() => handleClick()}>
-          <h1>Prev</h1>
+          <h1>Back</h1>
         </div>
 
         <div className="three" onClick={() => handleClick("next")}>
