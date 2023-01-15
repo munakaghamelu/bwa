@@ -12,13 +12,17 @@
   #content{
     display: grid;
     grid-template-columns: repeat(1,100%);
-    grid-template-rows: 1fr 3fr 3fr 1fr;
+    grid-template-rows: 0.5fr 3fr 3fr 0.5fr;
     height: 100%;
   }
   .one{
     background: #F1D268;
     color: #262626;
     cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
     .row {
       display: flex;
       flex-wrap: wrap;
@@ -27,10 +31,6 @@
     .column {
       flex: 24%;
       max-width: 50%;
-      text-align: center;
-      justify-content: center;
-      align-items: center;
-      vertical-align: middle;
       padding: 0 4px;
     }
   }
@@ -143,12 +143,15 @@
       grid-template-columns: repeat(1,100%);
       grid-template-rows: 1fr 3fr 3fr 1fr;
       grid-auto-rows: minmax(100px, auto);
-      // height: 100vh;
     }
     .one{
       background: #F1D268;
       color: #262626;
       cursor: pointer;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      vertical-align: middle;
       .row {
         display: flex;
         flex-wrap: wrap;
@@ -157,11 +160,6 @@
       .column {
         flex: 24%;
         max-width: 50%;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        vertical-align: middle;
-        // padding: 0 4px;
       }
     }
     .two{
