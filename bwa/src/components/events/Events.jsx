@@ -120,17 +120,15 @@ export default function Events(){
                 return <h3>{event.price}</h3>
               })}
             </div>
-
-            <div className="column">
-              {curList.slice(eventIndex, eventIndex+1).map((event,index) => {
-                return <a href={event.link} target="_blank"><h3>Event Information</h3></a>
-              })}
-            </div>
           </div>
+
+          {curList.slice(eventIndex, eventIndex+1).map((event,index) => {
+            return <a href={event.link} target="_blank"><h3>Click here for more information</h3></a>
+          })}
         </div>
 
         <div className="three">
-        <div className="row">
+          <div className="row">
             <div className="column">
               {curList.slice(eventIndex+1, eventIndex+2).map((event,index) => {
                 return <img src={event.img}/>
@@ -148,13 +146,11 @@ export default function Events(){
                 return <h3>{event.price}</h3>
               })}
             </div>
-
-            <div className="column">
-              {curList.slice(eventIndex+1, eventIndex+2).map((event,index) => {
-                return <a href={event.link} target="_blank"><h3>Event Information</h3></a>
-              })}
-            </div>
           </div>
+
+            {curList.slice(eventIndex+1, eventIndex+2).map((event,index) => {
+              return <a href={event.link} target="_blank"><h3>Click here for more information</h3></a>
+            })}
         </div>
 
         <div className="four">

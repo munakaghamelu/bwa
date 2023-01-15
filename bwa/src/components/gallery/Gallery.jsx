@@ -507,7 +507,6 @@ export default function Gallery(){
     <div className="gallery" id="gallery">
       <div id="content">
         <div className="one">
-
           <div className="row">
             <div className="column">
               {images.slice(imgIndex, imgIndex+2).map((item,index) => {
@@ -530,7 +529,6 @@ export default function Gallery(){
               })}
             </div>
           </div>
-          
         </div>
 
         <div className="two" onClick={() => handleClick()}>

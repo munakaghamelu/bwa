@@ -12,6 +12,7 @@ export default function Contact(){
           <p>@bwartist_</p>
           <h2>Email</h2>
           <p>blackwomenartistnetwork@gmail.com</p>
+          <p> </p>
         </div>
       </div>
     </div>
