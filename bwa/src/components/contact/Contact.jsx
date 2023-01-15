@@ -8,9 +8,9 @@ export default function Contact(){
           <img src="assets/contact.png"></img>
         </div>
         <div className="two">
-          <h1>INSTAGRAM</h1>
+          <h2>Instagram</h2>
           <p>@bwartist_</p>
-          <h1>EMAIL</h1>
+          <h2>Email</h2>
           <p>blackwomenartistnetwork@gmail.com</p>
         </div>
       </div>

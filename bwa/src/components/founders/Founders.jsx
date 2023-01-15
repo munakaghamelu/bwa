@@ -5,19 +5,19 @@ export default function Founders(){
     <div className="founders" id="founders">
       <div id="content">
         <div className="zero">
-          <h1>THE FOUNDERS</h1>
+          <h1>The Founders</h1>
         </div>
         <div className="one">
           <img src="assets/janet.png"></img>
         </div>
         <div className="two">
-          <h1>JANET</h1>
+          <h1>Janet</h1>
         </div>
         <div className="three">
           <img src="assets/leah.png"></img>
         </div>
         <div className="four">
-          <h1>LEAH</h1>
+          <h1>Leah</h1>
         </div>
       </div>
     </div>

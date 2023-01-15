@@ -27,7 +27,7 @@ export default function Popup(){
           Help us continue to support amazing Black Women Artists by making a donation!
           <div className="supportbtn"><a href="https://www.paypal.com/donate/?hosted_button_id=VLXYQ3WDAY8H6" target="_blank"><h2>SUPPORT</h2></a></div>
         </div>
-        <button onClick={toggleModal}>Close modal</button>
+        <button onClick={toggleModal}>Close</button>
       </Modal>
     </div>
   );

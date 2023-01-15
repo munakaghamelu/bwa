@@ -10,7 +10,7 @@
   #content{
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(2, 50%);
+    grid-template-rows: 2fr 0.25fr;
     height: 100%;
   }
   .one{
@@ -69,67 +69,38 @@
   .two{
     grid-column: 1/2;
     grid-row: 2/3;
-    background: #262626;
-    opacity: 80%;
-    text-align: center;
-    justify-content: left;
-    align-items: left;
-    color: #F1D268;
+    background: #F1D268;
+    color: #262626;
     vertical-align: middle;
-    line-height: 50px;
     cursor: pointer;
-    width: 40%;
-    height: 20%;
-    margin: auto 0 0 0;
 
     @media screen and (min-width:760px) {
       grid-column: 1/2;
       grid-row: 2/3;
-      background: #262626;
-      opacity: 80%;
-      text-align: center;
-      justify-content: left;
-      align-items: left;
-      color: #F1D268;
+      background: #F1D268;
+      color: #262626;
       vertical-align: middle;
       line-height: 50px;
       cursor: pointer;
-      width: 20%;
-      height: 20%;
-      margin: auto 0 0 0;
     }
   }
   .three{
     grid-column: 2/3;
     grid-row: 2/3;
-    background: #262626;
-    opacity: 80%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    color: #F1D268;
+    background: #F1D268;
+    color: #262626;
     vertical-align: middle;
     line-height: 50px;
     cursor: pointer;
-    margin: auto 0 0 auto;
-    width: 40%;
-    height: 20%;
 
     @media screen and (min-width:760px) {
       grid-column: 2/3;
       grid-row: 2/3;
-      background: #262626;
-      opacity: 80%;
-      text-align: center;
-      justify-content: center;
-      align-items: center;
-      color: #F1D268;
+      background: #F1D268;
+      color: #262626;
       vertical-align: middle;
       line-height: 50px;
       cursor: pointer;
-      margin: auto 0 0 auto;
-      width: 20%;
-      height: 20%;
     }
   }
 }

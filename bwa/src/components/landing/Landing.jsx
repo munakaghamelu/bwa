@@ -8,7 +8,7 @@ export default function Landing(){
           <img src='assets/logo.png' width="64em" height="56em"/>
         </div>
         <div>
-          <h3>Promoting, celebrating, connecting and supporting Black Women Artists.</h3>
+          <h4>Promoting, celebrating, connecting and supporting Black Women Artists.</h4>
         </div>
         <div></div>
       </div>

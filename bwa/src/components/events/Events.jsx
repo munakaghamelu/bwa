@@ -88,13 +88,13 @@ export default function Events(){
           <div className="row">
             <div className="column">
               <div className="past" onClick={() => chooseList("past")}>
-                <h1>PAST</h1>
+                <h1>Past</h1>
               </div>
             </div>
 
             <div className="column">
               <div className="upcoming" onClick={() => chooseList("upcoming")}>
-                <h1>UPCOMING</h1>
+                <h1>Upcoming</h1>
               </div>
             </div>
           </div>
@@ -111,19 +111,19 @@ export default function Events(){
 
             <div className="column">
               {curList.slice(eventIndex, eventIndex+1).map((event,index) => {
-                return <h1>{event.title}</h1>
+                return <h3>{event.title}</h3>
               })}
               {curList.slice(eventIndex, eventIndex+1).map((event,index) => {
-                return <h1>{event.date}</h1>
+                return <h3>{event.date}</h3>
               })}
               {curList.slice(eventIndex, eventIndex+1).map((event,index) => {
-                return <h1>{event.price}</h1>
+                return <h3>{event.price}</h3>
               })}
             </div>
 
             <div className="column">
               {curList.slice(eventIndex, eventIndex+1).map((event,index) => {
-                return <a href={event.link} target="_blank"><h1>LEARN MORE</h1></a>
+                return <a href={event.link} target="_blank"><h3>Event Information</h3></a>
               })}
             </div>
           </div>
@@ -139,19 +139,19 @@ export default function Events(){
 
             <div className="column">
               {curList.slice(eventIndex+1, eventIndex+2).map((event,index) => {
-                return <h1>{event.title}</h1>
+                return <h3>{event.title}</h3>
               })}
               {curList.slice(eventIndex+1, eventIndex+2).map((event,index) => {
-                return <h1>{event.date}</h1>
+                return <h3>{event.date}</h3>
               })}
               {curList.slice(eventIndex+1, eventIndex+2).map((event,index) => {
-                return <h1>{event.price}</h1>
+                return <h3>{event.price}</h3>
               })}
             </div>
 
             <div className="column">
               {curList.slice(eventIndex+1, eventIndex+2).map((event,index) => {
-                return <a href={event.link} target="_blank"><h1>LEARN MORE</h1></a>
+                return <a href={event.link} target="_blank"><h3>Event Information</h3></a>
               })}
             </div>
           </div>
@@ -159,7 +159,7 @@ export default function Events(){
 
         <div className="four">
           <div className="more" onClick={() => handleClick("more")}>
-            <h1>LOAD MORE</h1>
+            <h1>Load More</h1>
           </div>
         </div>
 
