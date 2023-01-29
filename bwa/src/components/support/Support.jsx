@@ -9,10 +9,18 @@ export default function Support(){
           <a href="https://www.paypal.com/donate/?hosted_button_id=VLXYQ3WDAY8H6" target="_blank">
             <img src="assets/paypal.png"></img>
           </a>
+
           <p>
             As a black-led organisation serving black women, a donation is the 
             best way to help us support the artist’s we work with.
           </p>
+
+          <div className="supportbtn">
+            <a href="https://www.paypal.com/donate/?hosted_button_id=VLXYQ3WDAY8H6" target="_blank">
+              <h2>SUPPORT</h2>
+            </a>
+          </div>
+          
         </div>
         <div className="two">
           <img src="assets/support.png"></img>
