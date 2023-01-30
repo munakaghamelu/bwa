@@ -10,12 +10,17 @@ export default function Founders(){
 
         <div className="one">
           <img src="assets/janet.png"></img>
-          <div className="overlay">
-            <div className="text">Janet is a portrait artist and Design Manager based in South London. 
-            She is one of BWA's co-founders and works with the team to put on a variety of events, 
-            exhibitions and find new and exciting ways to promote black female art. Connect with Janet on Instagram: 
-            <a href="https://www.instagram.com/_berchie_/?hl=en" target="_blank"> @_berchie_</a>
-            </div>
+          <div className="janet_info">
+            <h3>
+            Janet is a portrait artist and Design Manager based in 
+            South London. She is one of BWA's co-founders and works 
+            with the team to put on a variety of events, exhibitions 
+            and find new and exciting ways to promote black female art.
+            </h3>
+            <h3>
+              Connect with Janet on Instagram:
+            </h3>
+            <h3><a href="https://www.instagram.com/_berchie_/?hl=en" target="_blank">@_berchie_</a></h3>
           </div>
         </div>
 
@@ -25,6 +30,17 @@ export default function Founders(){
 
         <div className="three">
           <img src="assets/leah.png"></img>
+          <div className="leah_info">
+            <h3>Leah is a portrait artist and Events Manager based in South London. 
+            She is one of BWA's co-founders and works with the team to put on a 
+            variety of events, exhibitions and find new and exciting ways to 
+            promote black female art.
+            </h3>
+            <h3>
+            You can connect with Leah on Instagram:
+            </h3>
+            <h3><a href="https://www.instagram.com/leahjeanneart/?hl=en" target="_blank">@leahjeanneart</a></h3>
+          </div>
         </div>
 
         <div className="four">
