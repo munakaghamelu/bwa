@@ -102,6 +102,8 @@
     opacity: 1;
   }
 
+  a { color: inherit; }
+
   .four{
     display: flex;
     grid-column: 2/3;
@@ -165,6 +167,10 @@
     .img{
       max-width: 100%;
       height: auto;
+    }
+
+    .leah_info, .janet_info {
+      visibility: hidden;
     }
   }
 }

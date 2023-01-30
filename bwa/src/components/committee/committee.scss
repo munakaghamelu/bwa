@@ -22,14 +22,38 @@
     align-items: center;
   }
   .one{
+    position: relative;
     grid-column: 1/2;
     grid-row: 2/3;
     background: #262626;
     img {
       width: 100%;
       height: 100%;
+      display: block;
     }
   }
+
+  .muna_info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #F1D268;
+    color: #262626;
+    visibility: hidden;
+    opacity: 0;
+    text-align: center;
+    font-size: 18px;
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+
+  .one:hover .muna_info {
+    visibility: visible;
+    opacity: 1;
+  }
+
   .two{
     grid-column: 1/2;
     grid-row: 3/4;
@@ -43,13 +67,38 @@
   }
 
   .three{
+    position: relative;
     grid-column: 2/3;
     grid-row: 2/3;
     background: #262626;
     img {
       width: 100%;
       height: 100%;
+      display: block;
     }
+  }
+
+  .sabina_info {
+    color: inherit;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #F1D268;
+    color: #262626;
+    visibility: hidden;
+    opacity: 0;
+    text-align: center;
+
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+
+  .three:hover .sabina_info {
+    visibility: visible;
+    opacity: 1;
   }
 
   .four{
@@ -65,13 +114,36 @@
   }
 
   .five{
+    position: relative;
     grid-column: 1/2;
     grid-row: 4/5;
     background: #262626;
     img {
       width: 100%;
       height: 100%;
+      display: block;
     }
+  }
+
+  .louise_info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #F1D268;
+    color: #262626;
+    visibility: hidden;
+    opacity: 0;
+    text-align: center;
+    font-size: 18px;
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+
+  .five:hover .louise_info {
+    visibility: visible;
+    opacity: 1;
   }
   
   .six{
@@ -86,15 +158,41 @@
     align-items: center;  
   }
 
+  a { color: inherit; } 
+
   .seven{
+    position: relative;
     grid-column: 2/3;
     grid-row: 4/5;
     background: #262626;
     img {
       width: 100%;
       height: 100%;
+      display: block;
     }
   }
+
+  .khad_info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #F1D268;
+    color: #262626;
+    visibility: hidden;
+    opacity: 0;
+    text-align: center;
+    font-size: 18px;
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+
+  .seven:hover .khad_info {
+    visibility: visible;
+    opacity: 1;
+  }
+
   .eight{
     grid-column: 2/3;
     grid-row: 5/6;
@@ -198,6 +296,10 @@
       vertical-align: middle;
       justify-content: center;
       align-items: center;  
+    }
+
+    .muna_info, .khad_info, .louise_info, .sabina_info {
+      visibility: hidden;
     }
   }
 }
